@@ -1,0 +1,21 @@
+#employeename,employeenumber,companyname,salary store inside set and dictionary
+
+employeename=input("Enter the employee name:")
+employeenumber=int(input("Enter the employee number:"))
+companyname=input("Enter the company name:")
+salary=int(input("Enter the salary:"))
+
+employee_set={employeename,employeenumber,companyname,salary}
+
+employee_dict={
+    "Name":employeename,
+    "Employee Number":employeenumber,
+    "Company Name":companyname,
+    "Salary":salary
+}
+
+print("\n Employee Details Using set:")
+print(employee_set)
+
+print("\nEmployee Details Using Dictionary")
+print(employee_dict)
